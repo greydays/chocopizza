@@ -1,2 +1,4 @@
 # chocopizza
-Creating website from comp image
+Added CSS
+Removed HR tags
+replaced aside with section tagß
