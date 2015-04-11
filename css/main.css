@@ -113,6 +113,13 @@ margin-left: 25px;
   .pad li {
     padding-bottom: 8px;
   }
+input[type=checkbox] {
+  background-color: black;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
 
 .about {
   padding-bottom: 50px;
