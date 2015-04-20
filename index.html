@@ -10,14 +10,16 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="css/normalize.css">
-
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layouts.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/states.css">
     <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Scheherazade' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
@@ -29,68 +31,103 @@
 
     <main>
       <header>
-        <img class="logo" src="images/logo.png" />
-        <h1 class="dlogo">Delicious
-          <span class="right">
-            <ul>
-              <li class="social"><img src="images/fb-icon.png" /></li>
-              <li class="social"><img src="images/twit-icon.png" /></li>
-              <li class="social"><img src="images/gplus-icon.png" /></li>
-              <li class="social"><img src="images/ig-icon.png" /></li>
-              <li class="social"><img src="images/flikr-icon.png" /></li>
-              <li class="social"><img src="images/pint-icon.png" /></li>
-              <li class="social"><img src="images/rss-icon.png" /></li>
-              <li class="social"><img src="images/email-icon.png" /></li>
-            </ul>
-          </span>
-        </h1>
-        <h3 class="logosub"> THE BEST FOOD BLOG ON THE WEB</h3>
-
+        <section class="left logo half">
+          <img class="left" src="images/logo.png" />
+          <h1>Delicious</h1>
+          <h3 class="allcaps"> The best food blog on the web</h3>
+        </section>
+        <section class="social half right">
+          <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
+          <a href="https://twitter.com/"><img src="images/twit-icon.png" /></a>
+          <a href="https://plus.google.com/"><img src="images/gplus-icon.png" /></a>
+          <a href="https://instagram.com/"><img src="images/ig-icon.png" /></a>
+          <a href="https://www.flickr.com/"><img src="images/flikr-icon.png" /></a>
+          <a href="https://www.pinterest.com/"><img src="images/pint-icon.png" /></a>
+          <a href="http://blog.foo.com/rss"><img src="images/rss-icon.png" /></a>
+          <a href="mailto:rcflaherty@gmail.com"><img src="images/email-icon.png" /></a>
+        </section>
       </header>
+
       <article>
-        <section class="tborder">
+        <section class="top-of-section-border">
           <h1 class="title">Chocolate Pizza</h1>
-          <h2 class="sub">POSTED ON 15 DEC 2013 / DESSERTS
-          <span class="right"><img src="images/print-icon.png" /> PRINT</span></h2>
+          <h2 class="allcaps">Posted on <time timedate="2013-12-15">15 Dec 2013</time> / Desserts
+          <span class="right" id="print"><img src="images/print-icon.png" /> print</span></h2>
           <img class="featurepic" src="images/cpizza.png" />
-          <p class="text indent">For the fig-swirl: Melt butter over medium heat in a saucepan. Add  brown sugar   and stir to dissolve. Halve all of the figs and toss in the saucepan   with water and lemon juice.   Cook over medium heat, stirring frequently, until you   have a chunky-jammy mixture. Add salt  with one or two stirs, set aside and let cool   completely.
+          <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add  brown sugar   and stir to dissolve. Halve all of the figs and toss in the saucepan   with water and lemon juice.   Cook over medium heat, stirring frequently, until you   have a chunky-jammy mixture. Add salt  with one or two stirs, set aside and let cool   completely.
           </p>
-          <p class="text indent">Ice Cream: In a small pot over medium heat, combine milk, and   granulated sugar  until sugar is completely dissolved and the milk is just barely  lukewarm. Whisk in the egg yolks.  Set mixture in the fridge and wait until the fig   mixture is cooled.</p>
-          <p class="text indent">Using an ice cream machine, pour liquids into the frozen basin and  process   according to manufacturer instructions, i.e., let spin and thicken for 20  minutes before adding  mascarpone, fig jam mixture, and the nuts. Continue to   process for +/- 10 minutes. Pour semi-  frozen mixture into a pyrex dish or glass   tupperware. Freeze for at least two hours before  serving.</p>
+          <p>Ice Cream: In a small pot over medium heat, combine milk, and   granulated sugar  until sugar is completely dissolved and the milk is just barely  lukewarm. Whisk in the egg yolks.  Set mixture in the fridge and wait until the fig   mixture is cooled.</p>
+          <p>Using an ice cream machine, pour liquids into the frozen basin and  process   according to manufacturer instructions, i.e., let spin and thicken for 20  minutes before adding  mascarpone, fig jam mixture, and the nuts. Continue to   process for +/- 10 minutes. Pour semi-  frozen mixture into a pyrex dish or glass   tupperware. Freeze for at least two hours before  serving.</p>
         </section>
         <section class="pad">
-          <ul class="lli">
-            <li><input type="checkbox" id='ingr1' name='ingr1'><label for="ingr1"> 1 1/2 cups milk</label></li>
-            <li><input type="checkbox" id='ingr2' name='ingr2'><label for="ingr2"> 1/2 cup mascarpone</label></li>
-            <li><input type="checkbox" id='ingr3' name='ingr3'><label for="ingr3"> 1/2 tsp pink salt</label></li>
-            <li><input type="checkbox" id='ingr4' name='ingr4'><label for="ingr4"> 1 lb Black Mission Figs</label></li>
-            <li><input type="checkbox" id='ingr5' name='ingr5'><label for="ingr5"> 1/2 cup brown sugar</label></li>
-            <li><input type="checkbox" id='ingr6' name='ingr6'><label for="ingr6"> 2-4 tbsp water</label></li>
+          <ul class="left">
+            <li>
+              <input type="checkbox" id='ingr1' name='ingr1'>
+              <label for="ingr1"> 1 1/2 cups milk</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr2' name='ingr2'>
+              <label for="ingr2"> 1/2 cup mascarpone</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr3' name='ingr3'>
+              <label for="ingr3"> 1/2 tsp pink salt</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr4' name='ingr4'>
+              <label for="ingr4"> 1 lb Black Mission Figs</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr5' name='ingr5'>
+              <label for="ingr5"> 1/2 cup brown sugar</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr6' name='ingr6'>
+              <label for="ingr6"> 2-4 tbsp water</label>
+            </li>
           </ul>
-          <ul class="rli">
-            <li><input type="checkbox" id='ingr7' name='ingr7'><label for="ingr7"> 1 1/2 cups heavy cream</label></li>
-            <li><input type="checkbox" id='ingr8' name='ingr8'><label for="ingr8"> 1/3 granualted sugar</label></li>
-            <li><input type="checkbox" id='ingr9' name='ingr9'><label for="ingr9"> 2 egg yolks</label></li>
-            <li><input type="checkbox" id='ingr10' name='ingr10'><label for="ingr10"> 1 lemon, juiced</label></li>
-            <li><input type="checkbox" id='ingr11' name='ingr11'><label for="ingr11"> 2 tbsp butter</label></li>
-            <li><input type="checkbox" id='ingr12' name='ingr12'><label for="ingr12"> 1 cup honey roasted pecans, roughly chopped</label></li>
+          <ul class="left">
+            <li>
+              <input type="checkbox" id='ingr7' name='ingr7'>
+              <label for="ingr7"> 1 1/2 cups heavy cream</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr8' name='ingr8'>
+              <label for="ingr8"> 1/3 granualted sugar</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr9' name='ingr9'>
+              <label for="ingr9"> 2 egg yolks</label>
+            </li>
+            <li>
+              <input type="checkbox" id='ingr10' name='ingr10'>
+              <label for="ingr10"> 1 lemon, juiced</label>
+            </li>
+            <li><input type="checkbox" id='ingr11' name='ingr11'>
+              <label for="ingr11"> 2 tbsp butter</label>
+            </li>
+            <li class="hangingindent">
+              <input type="checkbox" id='ingr12' name='ingr12'>
+              <label for="ingr12"> 1 cup honey roasted pecans, roughly chopped</label>
+            </li>
           </ul>
         </section>
       </article>
-      <section class="about tborder">
-        <img class="lcolumn" src="images/vanessa.png">
-        <h2 class="author">Vanessa Stevenson<span><div class="sharebutton"><a href="">SHARE RECIPE</a></div></span></h2>
-        <p class="text">Food enthuasist, photgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-
+      <section class="about-the-author top-of-section-border">
+        <div class="left about-the-author__div">
+          <img class="left" src="images/vanessa.png">
+          <h1>Vanessa Stevenson</h2>
+          <p>Food enthuasist, photgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
+        <div class="sharebutton right allcaps"><a href="">share recipe</a></div>
       </section>
     </main>
 
     <footer>
-      <img class="middle" src="images/small-logo.png">
+      <img src="images/small-logo.png">
       <p>Delicious © 2013 - All Rights Reserved.</p>
       <p>Proudly published with Ghost.</p>
     </footer>
-
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

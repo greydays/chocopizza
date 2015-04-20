@@ -1,0 +1,49 @@
+/*text*/
+p {
+  font-family: 'Droid Serif', serif;
+  font-size: 1em;
+  color: #696969;
+  line-height: 1.5;
+}
+h2, h3, .sharebutton {
+  font-family: 'Abel', sans-serif;
+}
+.logo h1{
+  font-family: "Yellowtail";
+  font-size: 2.44em;
+}
+.logo h3 {
+  font-size: .75em;
+}
+.title {
+  font-family: "Oswald";
+  font-size: 2.38em;
+  font-weight: 700;
+ }
+ h2 {
+  font-size: .88em;
+  color: #989898;
+ }
+.pad{
+  font-family: "Patrick Hand";
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #6C654B;
+  line-height: 1.42;
+}
+.about-the-author h1{
+  font-family: 'Droid Serif', serif;
+  font-size: 1.2em;
+  color: #1c2f2f;
+}
+footer p{
+  color: #989898;
+  font-size: .85em;
+}
+.hangingindent {
+ margin-left: 22px;
+ text-indent: -22px;
+}
+.allcaps {
+  text-transform: uppercase;
+}

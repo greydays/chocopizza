@@ -1,0 +1,15 @@
+
+/*ingredients notepad*/
+input[type=checkbox] {
+  background-color: black;
+}
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+/*share button*/
+.sharebutton a {
+  text-decoration: none;
+}
+.sharebutton a:visited{
+  color: white;
+}
