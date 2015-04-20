@@ -1,0 +1,103 @@
+/*border separating the major sections, applied to top of element*/
+.top-of-section-border {
+  border-style: solid;
+  border-width: 15px 0px 0px;
+  -moz-border-image: url("../images/border.png") 15 0 0;
+  -webkit-border-image: url("../images/border.png") 15 0 0;
+  -o-border-image: url("../images/border.png") 15 0 0;
+  border-image: url("../images/border.png") 15 0 0 fill;
+}
+
+/*Delicious logo and tagline*/
+.logo img {
+  padding-top: 3px;
+  padding-right: 8px;
+}
+.logo h3 {
+  padding-left: 52px;
+}
+
+/*links to social media, rss, email*/
+.social {
+  text-align: right;
+  padding-top: 14px;
+}
+.social a {
+  display: inline-block;
+  margin: -1px;
+}
+.social a:nth-child(7) {
+padding-left: 10px;
+}
+
+/*primary recipe content*/
+.title {
+  padding-top: 58px;
+  padding-bottom: 8px;
+}
+.featurepic {
+  padding-top: 30px;
+  padding-bottom: 21px;
+  width: 100%;
+}
+article p{
+  text-indent: 30px;
+  padding-top: 6px;
+  padding-bottom: 26px;
+}
+
+/*ingredients notepad*/
+.pad{
+  background-image: url("../images/notepad.png");
+  background-repeat: no-repeat;
+  height: 310px;
+}
+.pad ul {
+  list-style-type: none;
+  width: 350px;
+  margin-left: 62px;
+  padding-top: 38px;
+}
+
+/*About Section*/
+.about-the-author__div {
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-the-author img {
+  padding-right: 20px;
+}
+.about-the-author h1 {
+  padding-bottom: 15px;
+  padding-top: 6px;
+}
+.sharebutton {
+  width: 185px;
+  height: 54px;
+  background-color: #BC7058;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 55px;
+  float: right;
+  margin-top: 11px;
+}
+
+/*footer*/
+footer {
+  border-top: 1px solid #ececec;
+  text-align: center;
+}
+footer img {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: -42px;
+  border: 5px solid white;
+  background-color: white;
+}
+footer p {
+  position: relative;
+  top: -20px;
+}
