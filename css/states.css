@@ -1,15 +1,18 @@
 
 /*ingredients notepad*/
-input[type=checkbox] {
-  background-color: black;
+.box {
+  background-image: url("../images/checkbox.png");
 }
-input[type=checkbox]:checked + label {
+.cbox {
+  background-image: url("../images/checked.png");
+}
+.checked {
   text-decoration: line-through;
 }
-/*share button*/
-.sharebutton a {
-  text-decoration: none;
-}
-.sharebutton a:visited {
-  color: white;
+/*share button hover menu*/
+.share-menu {
+  display: none;
+  text-align: center;
+  float: right;
+  width: 185px;
 }

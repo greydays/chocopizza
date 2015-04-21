@@ -17,7 +17,7 @@
   padding-left: 52px;
 }
 
-/*links to social media, rss, email*/
+/*links to social media profiles, rss, email*/
 .social {
   text-align: right;
   padding-top: 14px;
@@ -58,9 +58,15 @@ article p {
   margin-left: 62px;
   padding-top: 38px;
 }
+.checklist span {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 8px;
+}
 
 /*About Section*/
-.about-the-author__div {
+.about-the-author {
   width: 680px;
   margin-left: auto;
   margin-right: auto;
