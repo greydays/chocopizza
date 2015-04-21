@@ -10,6 +10,6 @@ input[type=checkbox]:checked + label {
 .sharebutton a {
   text-decoration: none;
 }
-.sharebutton a:visited{
+.sharebutton a:visited {
   color: white;
 }

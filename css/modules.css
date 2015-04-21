@@ -27,7 +27,7 @@
   margin: -1px;
 }
 .social a:nth-child(7) {
-padding-left: 10px;
+  padding-left: 10px;
 }
 
 /*primary recipe content*/
@@ -40,14 +40,14 @@ padding-left: 10px;
   padding-bottom: 21px;
   width: 100%;
 }
-article p{
+article p {
   text-indent: 30px;
   padding-top: 6px;
   padding-bottom: 26px;
 }
 
 /*ingredients notepad*/
-.pad{
+.pad {
   background-image: url("../images/notepad.png");
   background-repeat: no-repeat;
   height: 310px;
