@@ -7,8 +7,9 @@ p {
 }
 h2, h3, .sharebutton {
   font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
 }
-.logo h1{
+.logo h1 {
   font-family: "Yellowtail";
   font-size: 2.44em;
 }
@@ -24,19 +25,19 @@ h2, h3, .sharebutton {
   font-size: .88em;
   color: #989898;
  }
-.pad{
+.pad {
   font-family: "Patrick Hand";
   font-size: 1.4em;
   font-weight: normal;
   color: #6C654B;
-  line-height: 1.42;
+  line-height: 1.39;
 }
-.about-the-author h1{
+.about-the-author h1 {
   font-family: 'Droid Serif', serif;
   font-size: 1.2em;
   color: #1c2f2f;
 }
-footer p{
+footer p {
   color: #989898;
   font-size: .85em;
 }
@@ -44,6 +45,6 @@ footer p{
  margin-left: 22px;
  text-indent: -22px;
 }
-.allcaps {
-  text-transform: uppercase;
+a {
+  color: inherit;
 }

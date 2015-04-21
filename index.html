@@ -1,4 +1,4 @@
-  <!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,7 +9,6 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layouts.css">
@@ -27,14 +26,12 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-
     <main>
       <header>
         <section class="left logo half">
           <img class="left" src="images/logo.png" />
           <h1>Delicious</h1>
-          <h3 class="allcaps"> The best food blog on the web</h3>
+          <h3> The best food blog on the web</h3>
         </section>
         <section class="social half right">
           <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
@@ -51,8 +48,13 @@
       <article>
         <section class="top-of-section-border">
           <h1 class="title">Chocolate Pizza</h1>
-          <h2 class="allcaps">Posted on <time timedate="2013-12-15">15 Dec 2013</time> / Desserts
-          <span class="right" id="print"><img src="images/print-icon.png" /> print</span></h2>
+          <h2>Posted on <time timedate="2013-12-15">15 Dec 2013</time> / Desserts
+            <a href="javascript:window.print()">
+              <span class="right" id="print">
+                <img src="images/print-icon.png" /> print
+              </span>
+            </a>
+          </h2>
           <img class="featurepic" src="images/cpizza.png" />
           <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add  brown sugar   and stir to dissolve. Halve all of the figs and toss in the saucepan   with water and lemon juice.   Cook over medium heat, stirring frequently, until you   have a chunky-jammy mixture. Add salt  with one or two stirs, set aside and let cool   completely.
           </p>
@@ -61,65 +63,62 @@
         </section>
         <section class="pad">
           <ul class="left">
-            <li>
-              <input type="checkbox" id='ingr1' name='ingr1'>
-              <label for="ingr1"> 1 1/2 cups milk</label>
+            <li class="checklist">
+              <span class="box"> </span>1 1/2 cups milk
             </li>
-            <li>
-              <input type="checkbox" id='ingr2' name='ingr2'>
-              <label for="ingr2"> 1/2 cup mascarpone</label>
+            <li class="checklist">
+              <span class="box"> </span>1/2 cup mascarpone
             </li>
-            <li>
-              <input type="checkbox" id='ingr3' name='ingr3'>
-              <label for="ingr3"> 1/2 tsp pink salt</label>
+            <li class="checklist">
+              <span class="box"> </span>1/2 tsp pink salt
             </li>
-            <li>
-              <input type="checkbox" id='ingr4' name='ingr4'>
-              <label for="ingr4"> 1 lb Black Mission Figs</label>
+            <li class="checklist">
+              <span class="box"> </span>1 lb Black Mission Figs
             </li>
-            <li>
-              <input type="checkbox" id='ingr5' name='ingr5'>
-              <label for="ingr5"> 1/2 cup brown sugar</label>
+            <li class="checklist">
+              <span class="box"> </span>1/2 cup brown sugar
             </li>
-            <li>
-              <input type="checkbox" id='ingr6' name='ingr6'>
-              <label for="ingr6"> 2-4 tbsp water</label>
+            <li class="checklist">
+              <span class="box"> </span>2-4 tbsp water
             </li>
           </ul>
           <ul class="left">
-            <li>
-              <input type="checkbox" id='ingr7' name='ingr7'>
-              <label for="ingr7"> 1 1/2 cups heavy cream</label>
+            <li class="checklist">
+              <span class="box"> </span>1 1/2 cups heavy cream
             </li>
-            <li>
-              <input type="checkbox" id='ingr8' name='ingr8'>
-              <label for="ingr8"> 1/3 granualted sugar</label>
+            <li class="checklist">
+              <span class="box"> </span>1/3 granualted sugar
             </li>
-            <li>
-              <input type="checkbox" id='ingr9' name='ingr9'>
-              <label for="ingr9"> 2 egg yolks</label>
+            <li class="checklist">
+              <span class="box"> </span>2 egg yolks
             </li>
-            <li>
-              <input type="checkbox" id='ingr10' name='ingr10'>
-              <label for="ingr10"> 1 lemon, juiced</label>
+            <li class="checklist">
+              <span class="box"> </span>1 lemon, juiced
             </li>
-            <li><input type="checkbox" id='ingr11' name='ingr11'>
-              <label for="ingr11"> 2 tbsp butter</label>
+            <li class="checklist">
+              <span class="box"> </span>2 tbsp butter
             </li>
-            <li class="hangingindent">
-              <input type="checkbox" id='ingr12' name='ingr12'>
-              <label for="ingr12"> 1 cup honey roasted pecans, roughly chopped</label>
+            <li class="hangingindent checklist">
+              <span class="box"> </span>1 cup honey roasted pecans, roughly chopped
             </li>
           </ul>
         </section>
       </article>
-      <section class="about-the-author top-of-section-border">
-        <div class="left about-the-author__div">
+      <section class="about-and-share top-of-section-border">
+        <div class="left about-the-author">
           <img class="left" src="images/vanessa.png">
           <h1>Vanessa Stevenson</h2>
           <p>Food enthuasist, photgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
         </div>
-        <div class="sharebutton right allcaps"><a href="">share recipe</a></div>
+        <div class="share">
+          <div class="sharebutton right"><a href="">share recipe</a></div>
+          <div class="share-menu">
+            <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
+            <a href="https://twitter.com/"><img src="images/twit-icon.png" /></a>
+            <a href="https://plus.google.com/"><img src="images/gplus-icon.png" /></a>
+            <a href="https://instagram.com/"><img src="images/ig-icon.png" /></a>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -129,19 +128,8 @@
       <p>Proudly published with Ghost.</p>
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-    </script>
   </body>
 </html>
