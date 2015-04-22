@@ -41,10 +41,6 @@ footer p {
   color: #989898;
   font-size: .85em;
 }
-.hangingindent {
- margin-left: 22px;
- text-indent: -22px;
-}
 a {
   color: inherit;
 }
