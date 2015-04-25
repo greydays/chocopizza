@@ -30,7 +30,7 @@ h2, h3, .sharebutton {
   font-size: 1.4em;
   font-weight: normal;
   color: #6C654B;
-  line-height: 1.39;
+  line-height: 1.4em;
 }
 .about-the-author h1 {
   font-family: 'Droid Serif', serif;
@@ -40,10 +40,6 @@ h2, h3, .sharebutton {
 footer p {
   color: #989898;
   font-size: .85em;
-}
-.hangingindent {
- margin-left: 22px;
- text-indent: -22px;
 }
 a {
   color: inherit;

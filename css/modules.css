@@ -19,7 +19,6 @@
 
 /*links to social media profiles, rss, email*/
 .social {
-  text-align: right;
   padding-top: 14px;
 }
 .social a {
@@ -48,15 +47,15 @@ article p {
 
 /*ingredients notepad*/
 .pad {
-  background-image: url("../images/notepad.png");
   background-repeat: no-repeat;
-  height: 310px;
 }
 .pad ul {
   list-style-type: none;
-  width: 350px;
-  margin-left: 62px;
-  padding-top: 38px;
+  display: inline-block;
+}
+.checklist {
+ margin-left: 22px;
+ text-indent: -22px;
 }
 .checklist span {
   width: 14px;
@@ -64,13 +63,35 @@ article p {
   display: inline-block;
   margin-right: 8px;
 }
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+ .flex-item-1 {
+    width: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 250px;
+}
+ .flex-item-2 {
+    width: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 250px;
+}
 
 /*About Section*/
-.about-the-author {
-  width: 680px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .about-the-author img {
   padding-right: 20px;
 }
@@ -78,32 +99,33 @@ article p {
   padding-bottom: 15px;
   padding-top: 6px;
 }
+.about-the-author {
+  padding-right: 10px;
+}
 .sharebutton {
-  width: 185px;
-  height: 54px;
   background-color: #BC7058;
   color: white;
   font-size: 18px;
   text-align: center;
-  line-height: 55px;
   float: right;
   margin-top: 11px;
+  padding: 18px 42px;
 }
 
 /*footer*/
 footer {
   border-top: 1px solid #ececec;
   text-align: center;
+  height: 150px;
 }
 footer img {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  top: -42px;
+  top: -22px;
   border: 5px solid white;
   background-color: white;
 }
 footer p {
   position: relative;
-  top: -20px;
 }

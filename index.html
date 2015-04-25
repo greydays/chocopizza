@@ -10,6 +10,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layouts.css">
     <link rel="stylesheet" href="css/modules.css">
@@ -26,14 +27,14 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <main>
+    <main class="container">
       <header>
-        <section class="left logo half">
+        <section class="logo six columns">
           <img class="left" src="images/logo.png" />
           <h1>Delicious</h1>
           <h3> The best food blog on the web</h3>
         </section>
-        <section class="social half right">
+        <section class="social six columns">
           <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
           <a href="https://twitter.com/"><img src="images/twit-icon.png" /></a>
           <a href="https://plus.google.com/"><img src="images/gplus-icon.png" /></a>
@@ -61,8 +62,8 @@
           <p>Ice Cream: In a small pot over medium heat, combine milk, and   granulated sugar  until sugar is completely dissolved and the milk is just barely  lukewarm. Whisk in the egg yolks.  Set mixture in the fridge and wait until the fig   mixture is cooled.</p>
           <p>Using an ice cream machine, pour liquids into the frozen basin and  process   according to manufacturer instructions, i.e., let spin and thicken for 20  minutes before adding  mascarpone, fig jam mixture, and the nuts. Continue to   process for +/- 10 minutes. Pour semi-  frozen mixture into a pyrex dish or glass   tupperware. Freeze for at least two hours before  serving.</p>
         </section>
-        <section class="pad">
-          <ul class="left">
+        <section class="pad flex-container">
+          <ul class="flex-item-1">
             <li class="checklist">
               <span class="box"> </span>1 1/2 cups milk
             </li>
@@ -82,7 +83,7 @@
               <span class="box"> </span>2-4 tbsp water
             </li>
           </ul>
-          <ul class="left">
+          <ul class="flex-item-2">
             <li class="checklist">
               <span class="box"> </span>1 1/2 cups heavy cream
             </li>
@@ -98,31 +99,33 @@
             <li class="checklist">
               <span class="box"> </span>2 tbsp butter
             </li>
-            <li class="hangingindent checklist">
+            <li class="checklist">
               <span class="box"> </span>1 cup honey roasted pecans, roughly chopped
             </li>
           </ul>
         </section>
       </article>
-      <section class="about-and-share top-of-section-border">
-        <div class="left about-the-author">
+      <section class="about-and-share top-of-section-border row">
+        <div class="about-the-author nine columns left">
           <img class="left" src="images/vanessa.png">
           <h1>Vanessa Stevenson</h2>
           <p>Food enthuasist, photgraphy fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
         </div>
-        <div class="share">
-          <div class="sharebutton right"><a href="">share recipe</a></div>
-          <div class="share-menu">
-            <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
-            <a href="https://twitter.com/"><img src="images/twit-icon.png" /></a>
-            <a href="https://plus.google.com/"><img src="images/gplus-icon.png" /></a>
-            <a href="https://instagram.com/"><img src="images/ig-icon.png" /></a>
+        <div class="share three columns right">
+          <div id="share" class="sharebutton"><span class="sharerecipe">share recipe</span>
+            <div class="share-menu hide">
+              <a href="https://www.facebook.com/"><img src="images/fb-icon.png" /></a>
+              <a href="https://twitter.com/"><img src="images/twit-icon.png" /></a>
+              <a href="https://plus.google.com/"><img src="images/gplus-icon.png" /></a>
+              <a href="https://instagram.com/"><img src="images/ig-icon.png" /></a>
+            </div>
           </div>
+
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="container">
       <img src="images/small-logo.png">
       <p>Delicious © 2013 - All Rights Reserved.</p>
       <p>Proudly published with Ghost.</p>
