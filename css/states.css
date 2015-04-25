@@ -14,15 +14,27 @@
   display: none;
   text-align: center;
   float: right;
-  width: 185px;
 }
 @media (max-width: 550px) {
   header {
     padding-bottom: 100px;
   }
+  .social {
+    text-align: left;
+  }
+}
+  @media (min-width: 551px) {
+  header {
+    padding-bottom: 75px;
+  }
+  .social {
+    text-align: right;
+  }
+}
+@media (max-width: 700px) {
   .pad {
     background-image: url("../images/notepad-500px.png");
-    min-height: 610px;
+    min-height: 530px;
   }
   .pad ul {
     padding-left: 40px;
@@ -31,10 +43,7 @@
     padding-top: 38px;
   }
 }
-@media (min-width: 551px) {
-  header {
-    padding-bottom: 75px;
-  }
+@media (min-width: 701px) {
   .pad {
     background-image: url("../images/notepad.png");
     height: 310px;
