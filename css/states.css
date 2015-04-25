@@ -11,10 +11,17 @@
 }
 /*share button hover menu*/
 .share-menu {
-  display: none;
   text-align: center;
   float: right;
+  padding: 13px 38px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 11px;
 }
+.hide {
+  display: none;
+}
+/*media queries for screen size*/
 @media (max-width: 550px) {
   header {
     padding-bottom: 100px;
