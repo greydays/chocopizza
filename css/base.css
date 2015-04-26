@@ -20,11 +20,11 @@ h2, h3, .sharebutton {
   font-family: "Oswald";
   font-size: 2.38em;
   font-weight: 700;
- }
- h2 {
+}
+h2 {
   font-size: .88em;
   color: #989898;
- }
+}
 .pad {
   font-family: "Patrick Hand";
   font-size: 1.4em;
@@ -43,4 +43,7 @@ footer p {
 }
 a {
   color: inherit;
+}
+a:hover {
+ color: #BC7058;
 }
