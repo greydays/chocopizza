@@ -71,6 +71,9 @@
   .pad ul:first-child {
     padding-top: 38px;
   }
+  .share {
+    float: left;
+  }
 }
 @media (min-width: 701px) {
   .pad {
@@ -82,5 +85,8 @@
   }
   .pad ul:first-child {
     padding-left: 60px;
+  }
+  .share {
+    float: right;
   }
 }
