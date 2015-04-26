@@ -56,6 +56,7 @@ article p {
 .checklist {
  margin-left: 22px;
  text-indent: -22px;
+ cursor: pointer;
 }
 .checklist span {
   width: 14px;
