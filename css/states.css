@@ -52,7 +52,7 @@
     text-align: left;
   }
 }
-  @media (min-width: 551px) {
+@media (min-width: 551px) {
   header {
     padding-bottom: 75px;
   }
