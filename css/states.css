@@ -85,6 +85,7 @@
   }
   .pad ul:first-child {
     padding-left: 60px;
+    vertical-align: top;
   }
   .share {
     float: right;
